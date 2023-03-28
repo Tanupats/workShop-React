@@ -1,0 +1,49 @@
+
+.app-grid{
+    margin: 0 auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+    padding: 20px;
+}
+
+.table_container{
+   margin-bottom: 150px;
+}
+.table_container{
+    text-align: center;
+}
+.time_picker{
+    margin-top: 20px;
+    width: auto;
+    text-align: center;
+}
+.app{
+  
+    margin: 0 auto;
+    max-width:100%;
+}
+#message{
+    font-size: 18px;
+    border: solid 1px #e0e0e0;
+height: 50px;
+border-radius: 4px;
+}
+.card-serch{
+    border-radius: 5px;
+   
+   
+}
+.Autocomplete{
+    margin-top: 20px;
+}
+
+.date-picker{
+    margin-top: 20px;
+}
+.container{
+    padding: 16px;
+    margin: 0 auto;
+   max-width:960px;
+}

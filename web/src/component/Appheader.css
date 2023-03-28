@@ -1,0 +1,9 @@
+
+.app-header{
+    width: 100%;
+    color: #fff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(32, 23, 126);
+}
