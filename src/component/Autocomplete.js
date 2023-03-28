@@ -4,6 +4,7 @@ import Stack from '@mui/material/Stack';
 import Autocomplete from '@mui/material/Autocomplete';
 
 export default function FreeSolo() {
+
   return (
     <Stack spacing={2} sx={{ width: 300 }}>
 
@@ -15,8 +16,10 @@ export default function FreeSolo() {
         renderInput={(params) => (
 
           <TextField
+         
             {...params}
-            label="Search input"
+            
+            label="ค้นหาข้อมูล"
             InputProps={{
               ...params.InputProps,
               type: 'search',
